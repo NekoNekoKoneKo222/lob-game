@@ -1,0 +1,55 @@
+{
+  "research": [
+    {
+      "id": "staff_training_1",
+      "name": "職員訓練 I",
+      "category": "staff",
+      "cost": 150,
+      "description": "基礎訓練プログラムを整備し、新人職員の初期能力を底上げする。",
+      "effectKey": "staff_stat_up"
+    },
+    {
+      "id": "medical_facility_1",
+      "name": "医療設備 I",
+      "category": "medical",
+      "cost": 180,
+      "description": "医療班の治療効率を高める設備を導入する。",
+      "prerequisite": "staff_training_1",
+      "effectKey": "medical_auto_heal"
+    },
+    {
+      "id": "ego_mod_unlock",
+      "name": "E.G.O強化研究",
+      "category": "ego",
+      "cost": 220,
+      "description": "E.G.O装備の改造を可能にする。",
+      "effectKey": "ego_mod_unlock"
+    },
+    {
+      "id": "auto_alarm",
+      "name": "自動警報システム",
+      "category": "alarm",
+      "cost": 160,
+      "description": "収容違反の発生をいち早く検知し、初動対応を早める。",
+      "effectKey": "auto_alarm"
+    },
+    {
+      "id": "containment_upgrade_1",
+      "name": "収容室改良 I",
+      "category": "containment",
+      "cost": 260,
+      "description": "収容室のエネルギー効率を改善し、最大エネルギー貯蔵量を増やす。",
+      "prerequisite": "auto_alarm",
+      "effectKey": "energy_cap_up"
+    },
+    {
+      "id": "containment_upgrade_2",
+      "name": "収容室改良 II",
+      "category": "containment",
+      "cost": 400,
+      "description": "さらなる収容室の拡張。最大エネルギー貯蔵量を大幅に増やす。",
+      "prerequisite": "containment_upgrade_1",
+      "effectKey": "energy_cap_up"
+    }
+  ]
+}

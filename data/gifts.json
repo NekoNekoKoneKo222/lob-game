@@ -1,0 +1,9 @@
+{
+  "gifts": [
+    { "id": "gift_soft_slumber", "name": "浅い眠りの加護", "rarity": "ZAYIN", "statBonus": { "temperance": 3 }, "description": "精神ダメージをわずかに軽減する。" },
+    { "id": "gift_porcelain_calm", "name": "磁器の静けさ", "rarity": "ZAYIN", "statBonus": { "prudence": 2, "temperance": 2 }, "description": "動揺しにくくなる。" },
+    { "id": "gift_scales_resolve", "name": "天秤の決意", "rarity": "HE", "statBonus": { "justice": 5 }, "description": "正義の判断力が増す。" },
+    { "id": "gift_forgotten_page", "name": "忘却の一頁", "rarity": "TETH", "statBonus": { "prudence": 4 }, "description": "洞察がわずかに鋭くなる。" },
+    { "id": "gift_abyssal_thread", "name": "深淵の糸", "rarity": "WAW", "statBonus": { "courage": 3, "justice": 3 }, "description": "深淵に触れた者だけが持つ力。" }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "jobs": [
+    {
+      "id": "commander",
+      "name": "指揮官",
+      "description": "戦闘・作業の両面で周囲を統率する。",
+      "ability": "指揮官",
+      "statWeights": { "courage": 1, "justice": 1 }
+    },
+    {
+      "id": "executioner",
+      "name": "処刑人",
+      "description": "収容違反対象への鎮圧に特化する。",
+      "ability": "処刑人",
+      "statWeights": { "courage": 2 }
+    },
+    {
+      "id": "medic",
+      "name": "医療班",
+      "description": "負傷した仲間を治療する。",
+      "ability": "医療班",
+      "statWeights": { "temperance": 2 }
+    },
+    {
+      "id": "researcher",
+      "name": "研究員",
+      "description": "異常存在の観察・分析を得意とする。",
+      "ability": "分析眼",
+      "statWeights": { "prudence": 2 }
+    },
+    {
+      "id": "counselor",
+      "name": "相談員",
+      "description": "職員の精神的ケアを担当する。",
+      "ability": "傾聴",
+      "statWeights": { "temperance": 1, "justice": 1 }
+    },
+    {
+      "id": "clerk",
+      "name": "一般職員",
+      "description": "施設運営全般をこなす万能職。",
+      "ability": "臨機応変",
+      "statWeights": {}
+    }
+  ]
+}

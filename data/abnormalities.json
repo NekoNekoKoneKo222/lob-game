@@ -1,0 +1,150 @@
+{
+  "abnormalities": [
+    {
+      "id": "shiroi_mayu",
+      "name": "白い繭",
+      "risk": "ZAYIN",
+      "damageAttr": "PALE",
+      "maxCounter": 3,
+      "workAffinity": { "instinct": 55, "insight": 30, "attachment": 45, "repression": 20 },
+      "description": "天井から下がる巨大な繭。触れると眠気を誘う。",
+      "breachDanger": 10,
+      "workDamage": { "hp": 4, "sanity": 6 },
+      "egoReward": { "giftIds": ["gift_soft_slumber"] }
+    },
+    {
+      "id": "tetsu_no_komoriuta",
+      "name": "鉄の子守唄",
+      "risk": "ZAYIN",
+      "damageAttr": "WHITE",
+      "maxCounter": 3,
+      "workAffinity": { "instinct": 35, "insight": 40, "attachment": 55, "repression": 25 },
+      "description": "壊れたオルゴール仕掛けの人形。歌に合わせて手足を動かす。",
+      "breachDanger": 8,
+      "workDamage": { "hp": 5, "sanity": 4 }
+    },
+    {
+      "id": "hohoemu_ningyo",
+      "name": "微笑む人形",
+      "risk": "ZAYIN",
+      "damageAttr": "WHITE",
+      "maxCounter": 4,
+      "workAffinity": { "instinct": 30, "insight": 25, "attachment": 60, "repression": 35 },
+      "description": "常に微笑みを浮かべた磁器人形。長く見つめると視線が合う。",
+      "breachDanger": 9,
+      "workDamage": { "hp": 4, "sanity": 7 },
+      "egoReward": { "giftIds": ["gift_porcelain_calm"] }
+    },
+    {
+      "id": "akai_tenbin",
+      "name": "赤い天秤",
+      "risk": "HE",
+      "damageAttr": "RED",
+      "maxCounter": 5,
+      "workAffinity": { "instinct": 25, "insight": 35, "attachment": 20, "repression": 60 },
+      "description": "罪と罰を秤にかけ続ける古い天秤。均衡が崩れると裁きが下る。",
+      "specialAbility": "有罪ゲージが満ちると「罪の重さ」を発動する",
+      "breachDanger": 30,
+      "workDamage": { "hp": 12, "sanity": 10 },
+      "egoReward": { "weaponId": "justitia", "giftIds": ["gift_scales_resolve"] }
+    },
+    {
+      "id": "mohousha_no_kage",
+      "name": "模倣者の影",
+      "risk": "TETH",
+      "damageAttr": "BLACK",
+      "maxCounter": 4,
+      "workAffinity": { "instinct": 50, "insight": 45, "attachment": 20, "repression": 30 },
+      "description": "観察した職員の動きを写し取り、いずれ完全に模倣する影。",
+      "specialAbility": "撃破数に応じて姿を変える",
+      "breachDanger": 22,
+      "workDamage": { "hp": 9, "sanity": 8 },
+      "egoReward": { "weaponId": "mimicry_blade" }
+    },
+    {
+      "id": "sasayaku_shoka",
+      "name": "囁く書架",
+      "risk": "TETH",
+      "damageAttr": "PALE",
+      "maxCounter": 4,
+      "workAffinity": { "instinct": 15, "insight": 65, "attachment": 25, "repression": 30 },
+      "description": "誰も書いていないはずの本が並ぶ書架。読むほど記憶が薄れる。",
+      "breachDanger": 20,
+      "workDamage": { "hp": 6, "sanity": 14 },
+      "egoReward": { "giftIds": ["gift_forgotten_page"] }
+    },
+    {
+      "id": "chi_no_hanayome",
+      "name": "血の花嫁",
+      "risk": "HE",
+      "damageAttr": "RED",
+      "maxCounter": 5,
+      "workAffinity": { "instinct": 20, "insight": 30, "attachment": 65, "repression": 25 },
+      "description": "永遠に終わらない結婚式を待つ花嫁。祝福を求めて彷徨う。",
+      "breachDanger": 28,
+      "workDamage": { "hp": 11, "sanity": 11 },
+      "egoReward": { "armorId": "crimson_veil" }
+    },
+    {
+      "id": "kowareta_kyouzou",
+      "name": "壊れた鏡像",
+      "risk": "HE",
+      "damageAttr": "PALE",
+      "maxCounter": 5,
+      "workAffinity": { "instinct": 30, "insight": 55, "attachment": 30, "repression": 25 },
+      "description": "鏡の中の自分が少しずつ違う動きをする。見続けると混乱する。",
+      "breachDanger": 26,
+      "workDamage": { "hp": 8, "sanity": 15 }
+    },
+    {
+      "id": "tasogare_no_kemono",
+      "name": "黄昏の獣",
+      "risk": "WAW",
+      "damageAttr": "WHITE",
+      "maxCounter": 6,
+      "workAffinity": { "instinct": 60, "insight": 20, "attachment": 15, "repression": 40 },
+      "description": "夕暮れにのみ姿を現す巨躯の獣。全ての属性で牙を持つという。",
+      "specialAbility": "コンボ数に応じて特殊攻撃を行う",
+      "breachDanger": 42,
+      "workDamage": { "hp": 16, "sanity": 10 },
+      "egoReward": { "weaponId": "twilight_fang" }
+    },
+    {
+      "id": "mugon_no_kanshu",
+      "name": "無言の看守",
+      "risk": "WAW",
+      "damageAttr": "BLACK",
+      "maxCounter": 6,
+      "workAffinity": { "instinct": 25, "insight": 40, "attachment": 20, "repression": 55 },
+      "description": "かつての職員だったと噂される、鍵束を持つ無言の存在。",
+      "breachDanger": 40,
+      "workDamage": { "hp": 15, "sanity": 12 },
+      "egoReward": { "armorId": "iron_silence" }
+    },
+    {
+      "id": "shinen_no_kumo",
+      "name": "深淵の蜘蛛",
+      "risk": "WAW",
+      "damageAttr": "RED",
+      "maxCounter": 6,
+      "workAffinity": { "instinct": 45, "insight": 30, "attachment": 15, "repression": 45 },
+      "description": "巣に落ちた記憶を喰らう巨大な蜘蛛。",
+      "breachDanger": 44,
+      "workDamage": { "hp": 17, "sanity": 9 },
+      "egoReward": { "giftIds": ["gift_abyssal_thread"] }
+    },
+    {
+      "id": "shuuen_no_onsa",
+      "name": "終焉の音叉",
+      "risk": "ALEPH",
+      "damageAttr": "PALE",
+      "maxCounter": 8,
+      "workAffinity": { "instinct": 30, "insight": 50, "attachment": 30, "repression": 50 },
+      "description": "鳴らすたびに世界の終わりを一歩近づけるという音叉。施設最大の脅威。",
+      "specialAbility": "全属性への耐性を持ち、放置すると全異常存在に影響を及ぼす",
+      "breachDanger": 70,
+      "workDamage": { "hp": 22, "sanity": 20 },
+      "egoReward": { "weaponId": "finale_resonance", "armorId": "requiem_shroud" }
+    }
+  ]
+}

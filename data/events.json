@@ -1,0 +1,11 @@
+{
+  "events": [
+    { "id": "ev_blackout", "name": "大停電", "type": "disaster", "description": "施設全域で電力が失われ、エネルギーが半減した。", "weight": 10, "effectKey": "blackout" },
+    { "id": "ev_camera_down", "name": "監視カメラ停止", "type": "disaster", "description": "監視系統がダウンした。異常存在の動向把握が難しくなる。", "weight": 12, "effectKey": "camera_down" },
+    { "id": "ev_info_corruption", "name": "情報汚染", "type": "disaster", "description": "記録データが汚染され、一部異常存在の情報が失われた。", "weight": 8, "effectKey": "info_corruption" },
+    { "id": "ev_panic", "name": "集団パニック", "type": "disaster", "description": "原因不明の不安感が職員たちを襲い、精神力が減少した。", "weight": 10, "effectKey": "panic" },
+    { "id": "ev_red_mist", "name": "赤い霧", "type": "disaster", "description": "施設に赤い霧が立ち込め、複数の異常存在が同時に暴走した。", "weight": 3, "effectKey": "red_mist", "minDay": 15 },
+    { "id": "ev_quiet_night", "name": "静かな夜", "type": "special", "description": "特に何も起こらない、平穏な夜だった。", "weight": 20, "effectKey": "none" },
+    { "id": "ev_whisper", "name": "夜の囁き", "type": "special", "description": "どこからともなく囁き声が聞こえる。新たな存在の気配がする。", "weight": 10, "effectKey": "none" }
+  ]
+}

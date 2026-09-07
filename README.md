@@ -1,7 +1,25 @@
 # TSG Corporation
 
+![Build Check](https://github.com/OWNER/REPO/actions/workflows/build.yml/badge.svg)
+![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)
+
 Lobotomy Corporation に影響を受けた施設管理シミュレーションゲーム。
 TypeScript + Canvas によるデータ駆動設計、JSONのみでのMOD拡張に対応しています。
+
+> `OWNER/REPO` の部分は実際のGitHubユーザー名/リポジトリ名に置き換えてください。
+
+## クローンして遊ぶ
+
+```bash
+git clone https://github.com/OWNER/REPO.git
+cd REPO
+npm install
+npm start
+```
+
+`npm start` は TypeScript のビルド (`npm run build`) 後に `http://localhost:8000` で
+ローカルサーバーを起動します。ビルド済みの `dist/` は既にリポジトリに含まれているため、
+Node.js が無い環境でも `python3 -m http.server 8000` だけで起動できます。
 
 ## 遊び方(起動方法)
 
@@ -130,3 +148,24 @@ IDが本体データと重複した場合はMOD側の内容で上書きされま
 - 「終焉の日」は演出込みの専用マルチフェーズ戦闘ではなく、条件判定のみ
 - 施設マップはリアルタイムの職員/異常存在の移動アニメーションではなく、
   収容違反中の部署を点滅表示する簡易版です
+
+## 開発
+
+```bash
+npm install       # devDependencies (typescript) のインストール
+npm run watch      # src/ の変更を監視して自動コンパイル
+```
+
+`src/` 配下の `.ts` を編集後、`npm run build` (または `watch`) で `dist/` に
+コンパイルしてください。`dist/` はブラウザから直接読み込まれるため、
+コミット対象に含めています。
+
+## Contributing
+
+Issue / Pull Request 歓迎です。新しい異常存在・E.G.O・イベントなどのコンテンツは
+基本的に `data/` 以下のJSONを追加するだけで取り込めるため、コード変更なしでの
+コンテンツ追加PRも歓迎します。
+
+## License
+
+[MIT License](./LICENSE)
