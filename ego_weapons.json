@@ -1,0 +1,82 @@
+{
+  "weapons": [
+    {
+      "id": "justitia",
+      "name": "JUSTITIA",
+      "rarity": "HE",
+      "damageAttr": "RED",
+      "baseDamage": 24,
+      "specialName": "審判",
+      "specialDescription": "攻撃時15%で発動。対象周囲へ範囲攻撃を行う。有罪ゲージ最大時「罪の重さ」で巨大な天秤による高威力攻撃を行う。",
+      "triggerRate": 15,
+      "mods": [
+        {
+          "id": "justitia_mod1",
+          "name": "審判+",
+          "description": "発動率 15% → 25%",
+          "effects": { "triggerRateBonus": 10 }
+        },
+        {
+          "id": "justitia_mod2",
+          "name": "罪の重さ+",
+          "description": "範囲拡大・威力上昇",
+          "effects": { "damageBonus": 8, "aoeBonus": 1 }
+        }
+      ]
+    },
+    {
+      "id": "mimicry_blade",
+      "name": "Mimicry",
+      "rarity": "TETH",
+      "damageAttr": "BLACK",
+      "baseDamage": 16,
+      "specialName": "模倣進化",
+      "specialDescription": "敵撃破で攻撃力が増加する。一定数撃破すると武器形態が進化する。",
+      "triggerRate": 20,
+      "mods": [
+        {
+          "id": "mimicry_mod1",
+          "name": "進化促進",
+          "description": "撃破時の攻撃力増加が加速する",
+          "effects": { "damageBonus": 4 }
+        }
+      ]
+    },
+    {
+      "id": "twilight_fang",
+      "name": "Twilight",
+      "rarity": "WAW",
+      "damageAttr": "WHITE",
+      "baseDamage": 30,
+      "specialName": "黄昏乱舞",
+      "specialDescription": "全属性攻撃が可能。コンボ数によって特殊攻撃が発生する。",
+      "triggerRate": 18,
+      "mods": [
+        {
+          "id": "twilight_mod1",
+          "name": "連撃強化",
+          "description": "コンボ発生率が上昇する",
+          "effects": { "triggerRateBonus": 7 }
+        }
+      ]
+    },
+    {
+      "id": "finale_resonance",
+      "name": "終焉の共鳴",
+      "rarity": "ALEPH",
+      "damageAttr": "PALE",
+      "baseDamage": 46,
+      "specialName": "終末の音色",
+      "specialDescription": "発動時、施設全域の収容違反対象に同時ダメージを与える。",
+      "triggerRate": 12,
+      "mods": [
+        {
+          "id": "finale_mod1",
+          "name": "残響",
+          "description": "発動率と威力が共に上昇する",
+          "effects": { "triggerRateBonus": 5, "damageBonus": 10 }
+        }
+      ]
+    }
+  ]
+}

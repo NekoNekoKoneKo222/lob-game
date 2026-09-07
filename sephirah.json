@@ -1,0 +1,9 @@
+{
+  "sephirah": [
+    { "id": "keter", "name": "ケテル", "unlockDay": 3, "description": "施設全体を見守る最初のセフィラAI。基礎的な運営補助を行う。", "eventPoolId": "keter_pool" },
+    { "id": "chesed", "name": "ケセド", "unlockDay": 7, "description": "職員の福祉を司るセフィラ。療養効率を助言する。", "eventPoolId": "chesed_pool" },
+    { "id": "geburah", "name": "ゲブラー", "unlockDay": 12, "description": "戦闘時の指揮支援を行うセフィラ。", "eventPoolId": "geburah_pool" },
+    { "id": "hokma", "name": "ホクマー", "unlockDay": 20, "description": "異常存在の研究支援を行うセフィラ。", "eventPoolId": "hokma_pool" },
+    { "id": "malkuth", "name": "マルクト", "unlockDay": 35, "description": "施設の最終防衛を担うセフィラ。終末に備える。", "eventPoolId": "malkuth_pool" }
+  ]
+}

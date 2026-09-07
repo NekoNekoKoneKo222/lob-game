@@ -1,0 +1,16 @@
+{
+  "abnormalities": [
+    {
+      "id": "mod_nakigoe_ningyo",
+      "name": "泣き声人形【MOD】",
+      "risk": "TETH",
+      "damageAttr": "PALE",
+      "maxCounter": 4,
+      "workAffinity": { "instinct": 40, "insight": 30, "attachment": 60, "repression": 20 },
+      "description": "サンプルMODで追加された異常存在。JSONを編集して自由に差し替え可能。",
+      "breachDanger": 18,
+      "workDamage": { "hp": 7, "sanity": 9 },
+      "egoReward": { "giftIds": ["gift_soft_slumber"] }
+    }
+  ]
+}

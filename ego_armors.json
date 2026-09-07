@@ -1,0 +1,25 @@
+{
+  "armors": [
+    {
+      "id": "crimson_veil",
+      "name": "緋色のヴェール",
+      "rarity": "HE",
+      "resistances": { "RED": 40, "WHITE": 5 },
+      "description": "花嫁のヴェールを模した外套。赤の属性への耐性が高い。"
+    },
+    {
+      "id": "iron_silence",
+      "name": "鉄の沈黙",
+      "rarity": "WAW",
+      "resistances": { "BLACK": 45, "PALE": 10 },
+      "description": "音を吸う鉄の防具。黒属性への耐性に優れる。"
+    },
+    {
+      "id": "requiem_shroud",
+      "name": "鎮魂の被布",
+      "rarity": "ALEPH",
+      "resistances": { "RED": 25, "WHITE": 25, "BLACK": 25, "PALE": 25 },
+      "description": "全属性へ均等な耐性を持つ、施設最高峰の防具。"
+    }
+  ]
+}

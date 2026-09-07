@@ -1,0 +1,30 @@
+{
+  "themes": [
+    {
+      "id": "dark_default",
+      "name": "無機質ダーク",
+      "vars": {
+        "--bg": "#0b0c10",
+        "--panel": "#15171d",
+        "--border": "#2a2d35",
+        "--text": "#c9cdd6",
+        "--sub-text": "#7d8291",
+        "--accent": "#8a2f3c",
+        "--accent2": "#4f9ddb"
+      }
+    },
+    {
+      "id": "crimson_alert",
+      "name": "緋色警戒",
+      "vars": {
+        "--bg": "#0e0808",
+        "--panel": "#1a0f0f",
+        "--border": "#3a2020",
+        "--text": "#e8d5d5",
+        "--sub-text": "#a17d7d",
+        "--accent": "#c9302f",
+        "--accent2": "#8a2f3c"
+      }
+    }
+  ]
+}
